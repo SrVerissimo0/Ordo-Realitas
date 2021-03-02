@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ordo-Realitas/static/css/main.8f89dc49.chunk.css",
+    "main.js": "/Ordo-Realitas/static/js/main.615c092c.chunk.js",
+    "main.js.map": "/Ordo-Realitas/static/js/main.615c092c.chunk.js.map",
+    "runtime-main.js": "/Ordo-Realitas/static/js/runtime-main.566226bd.js",
+    "runtime-main.js.map": "/Ordo-Realitas/static/js/runtime-main.566226bd.js.map",
+    "static/js/2.7c27176c.chunk.js": "/Ordo-Realitas/static/js/2.7c27176c.chunk.js",
+    "static/js/2.7c27176c.chunk.js.map": "/Ordo-Realitas/static/js/2.7c27176c.chunk.js.map",
+    "index.html": "/Ordo-Realitas/index.html",
+    "static/css/main.8f89dc49.chunk.css.map": "/Ordo-Realitas/static/css/main.8f89dc49.chunk.css.map",
+    "static/js/2.7c27176c.chunk.js.LICENSE.txt": "/Ordo-Realitas/static/js/2.7c27176c.chunk.js.LICENSE.txt",
+    "static/media/senhor2.jpg": "/Ordo-Realitas/static/media/senhor2.b7cffb49.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.566226bd.js",
+    "static/js/2.7c27176c.chunk.js",
+    "static/css/main.8f89dc49.chunk.css",
+    "static/js/main.615c092c.chunk.js"
+  ]
+}
