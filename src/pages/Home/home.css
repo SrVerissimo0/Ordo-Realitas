@@ -1,0 +1,36 @@
+.menu {
+    background-color: #4480B6;
+    padding: 0;
+}
+.titulo{
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+.Stitulo{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+.posIMG{
+    background-color: #4480B6;
+}
+.Butao{
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+.textoBotao{
+    color: #4480B6;
+}
+.info{
+    display: flex;
+}
+.div-img{
+    width: 10%;
+    margin-right: 50px;
+}
