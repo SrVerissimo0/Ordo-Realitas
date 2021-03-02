@@ -10,7 +10,7 @@ function Recrutamento (){
     async function Enviar(e) {
         e.preventDefault()
 
-        const answer = await fetch("http://localhost:3001/recrutamento",{
+        const answer = await fetch("https://ordorealitasnode.herokuapp.com/recrutamento",{
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -24,7 +24,7 @@ function Recrutamento (){
         if (data.Mensagem == "Enviado"){
             alert("Obrigado pela confiança!\nEntraremos em contato por Email!")
         } else if(data.Mensagem == "Token Invalido"){
-            return(<Redirect to="/" />)
+            return(<Redirect to="/Ordo-Realitas" />)
         }
     }
 

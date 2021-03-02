@@ -12,7 +12,7 @@ function Routes() {
 
     return(
         <Switch>
-            <Route exact path='/' component={Home}/>
+            <Route exact path='/Ordo-Realitas' component={Home}/>
             <PrivateRoute path='/Ajuda' component={Ajuda} />
             <PrivateRoute path='/Recrutamento' component={Recrutamento} />
         </Switch>

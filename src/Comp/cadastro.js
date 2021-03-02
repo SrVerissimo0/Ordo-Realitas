@@ -19,7 +19,7 @@ function Cadastro() {
     async function Cadastro(e) {
         e.preventDefault()
 
-        const answer = await fetch("http://localhost:3001/cadastro",{
+        const answer = await fetch("https://ordorealitasnode.herokuapp.com/cadastro",{
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -39,7 +39,7 @@ function Cadastro() {
     async function Login(e) {
         e.preventDefault()
 
-        const answer = await fetch("http://localhost:3001/login",{
+        const answer = await fetch("https://ordorealitasnode.herokuapp.com/login",{
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -87,7 +87,7 @@ function Cadastro() {
         window.close()
 
     } else if (resp == "Aceito"){ 
-        return(<Redirect to="Ajuda"/>)
+        return(<Redirect to="/Ajuda"/>)
     }
 
 
